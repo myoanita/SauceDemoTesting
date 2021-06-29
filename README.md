@@ -13,7 +13,7 @@ Tools installation :
 
 How to run this test :
 1. Open terminal / cmd
-2. type "cd <<path folder project>>" on cmd
+2. type "cd (path folder project)" on cmd
 3. type "python3 -m Test.Test_login" for running test login
 4. type "python3 -m Test.Test_checkout" for running test checkout
 5. You can find the results file in folder Project1/Results there will be all of the html results
