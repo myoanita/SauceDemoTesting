@@ -5,7 +5,7 @@ import time
 from Pages.loginPage import LoginPage
 from Pages.homePage import HomePage
 
-class SauceDemo_login(unittest.TestCase):
+class SauceDemo_checkout(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         #cls.driver = webdriver.Safari() #driver for using safari
