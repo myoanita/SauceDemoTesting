@@ -73,7 +73,7 @@ class SauceDemo_login(unittest.TestCase):
         login.enter_password("secret_sauce")
         login.click_login()
         title = homepage.title_homepage()
-        assert title == "Products"
+        assert title == "PRODUCTS"
 
     @classmethod
     def tearDownClass(cls):
