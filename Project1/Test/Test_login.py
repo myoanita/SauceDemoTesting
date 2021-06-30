@@ -12,8 +12,8 @@ class SauceDemo_login(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.driver = webdriver.Safari() #driver for using safari
-        #cls.driver = webdriver.chrome("../drivers/chromedriver") #chrome driver for using mac M1
-        #cls.driver = webdriver.chrome("../drivers/chromedriver.exe") #chrome driver for using windows
+        #cls.driver = webdriver.Chrome("../drivers/chromedriver") #chrome driver for using mac M1
+        #cls.driver = webdriver.Chrome("../drivers/chromedriver.exe") #chrome driver for using windows
         cls.driver.implicitly_wait(10)
         cls.driver.maximize_window()
 
