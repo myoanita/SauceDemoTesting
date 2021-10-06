@@ -64,7 +64,7 @@ class SauceDemo_login(unittest.TestCase):
         error_message = login.error_message()
         assert error_message == "Epic sadface: Username and password do not match any user in this service"
 
-    def test_login_with_username_and_password(self):
+    def test_login_with_username_and_password_update(self):
         driver = self.driver
         driver.get("https://www.saucedemo.com/")
         login = LoginPage(driver)
